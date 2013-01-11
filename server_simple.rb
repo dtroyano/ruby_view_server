@@ -10,5 +10,6 @@ server = WEBrick::HTTPServer.new :Port => 8000, :DocumentRoot => root
 ## Capture control+c to shut down the server
 trap 'INT' do server.shutdown end
 
+	
 ## Start the server
 server.start
